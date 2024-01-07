@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00171f;
+}
+
+.input-bg, .box-bg {
+    background-color: #f5cb5c;
+}
+
+.input-bg-2, .box-bg-2 {
+    background-color: #f4f1bb;
+}
+
+.box {
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+.bi {
+    color: #000000;
+    cursor: pointer;
+}
